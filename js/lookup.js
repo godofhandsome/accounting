@@ -7,7 +7,7 @@ function deletethis(id){
     accountingCollection.remove({
         _id: id
     })
-    accountingCollection.save;
+    accountingCollection.save();
     search();
 }
 
