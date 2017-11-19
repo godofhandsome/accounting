@@ -2,6 +2,10 @@ var fdb = new ForerunnerDB();
 var db = fdb.db("accounting");
 var accountingCollection = db.collection('accounting');
 
+function deletethis(i){
+    $("$lookupTable").find(accountingCollection[i]).remove();
+}
+
 accountingCollection.load(function(){
     var accountings = accountingCollection.find(
         {},

@@ -1,0 +1,9 @@
+<widget id="accountingapp" version="0.0.1">
+        <name>地表最強記帳軟體</name>
+        <description>
+            a simple app for accountings
+        </description>
+        <content src="index.html" />
+        <access origin="*" />
+        <icon src="toxic-design.jpg" />
+    </widget>
